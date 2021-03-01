@@ -46,6 +46,7 @@ module.exports = {
     port: 3000,
     hot: isDev
   },
+  target: 'web',
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
